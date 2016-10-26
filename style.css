@@ -1,0 +1,71 @@
+body {
+	background: linear-gradient(206deg, #07f0b4, #3980dc, #bc92e1);
+	background-size: 600% 600%;
+
+	-webkit-animation: AnimationName 35s ease infinite;
+	-moz-animation: AnimationName 35s ease infinite;
+	animation: AnimationName 35s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+
+
+.dot {
+    fill: #FFF;
+}
+
+/*.big {
+    fill: red;
+}
+
+.small {
+    fill: black;
+}*/
+
+.top {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.contain, .currentLetter {
+    text-align: center;
+}
+
+.currentLetter {
+    height: 1.5em;
+}
+
+.contain {
+   /* margin-top: -4em;*/
+}
+
+.currentLetter {
+    margin-top: -2em;
+    font-size: 6em;
+    color: #FFF;
+}
+
+input {
+    width: 25em;
+    height: 2em;
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    border-radius: 2px;
+    color: #000;
+}
